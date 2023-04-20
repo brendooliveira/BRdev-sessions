@@ -1,24 +1,3 @@
-# Simple class sessions with functions has, set, destroy, unset and others.
-
-
-## Installation
-
-Router is available via Composer:
-
-```bash
-"brdev/sessions": "1.0"
-```
-
-or run
-
-```bash
-composer require brdev/sessions
-```
-
-## EXAMPLES THE WITH USE
-
-```php
-
 <?php
 
 use BRdev\Sessions\Session;
@@ -76,5 +55,3 @@ if(true)
     $session->csrf();
     echo $session->csrf_token;
 }
-
-```
