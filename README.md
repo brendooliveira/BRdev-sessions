@@ -3,7 +3,7 @@
 
 ## Installation
 
-Router is available via Composer:
+Session is available via Composer:
 
 ```bash
 "brdev/sessions": "1.0"
